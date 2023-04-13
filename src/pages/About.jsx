@@ -1,4 +1,4 @@
-const Sobre = () => {
+const About = () => {
   return (
     <main>
       <div className="container">
@@ -13,4 +13,4 @@ const Sobre = () => {
   )
 }
 
-export default Sobre
+export default About
