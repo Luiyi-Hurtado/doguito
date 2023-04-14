@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Page404 from './pages/404';
 import Header from './assets/components/Header';
 import Post from './pages/Posts';
+import Categoria from './pages/Categiria';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/posts/:id' element={<Post />} />
+        <Route path='/categoria/:id/*' element={<Categoria />} />
         <Route path='*' element={<Page404 />} />
       </Routes >
     </Router >
